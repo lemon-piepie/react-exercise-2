@@ -1,0 +1,27 @@
+.shopitem{
+    width: 160px;
+    margin: 10px;
+    position: relative;
+}
+.shopitem h3{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 5px 5px 10px 0;
+}
+.shopitem img{
+    width: 100%;
+}
+.shopitem button{
+    border: none;
+    position: absolute;
+    float: right;
+    right: 0;
+    top: 225px;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color:white;
+    background-color: #095e8f;
+}

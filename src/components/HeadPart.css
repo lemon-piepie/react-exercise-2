@@ -1,0 +1,40 @@
+.header{
+    background-color: #095e8f;
+    height:80px ;
+    width: 100%;
+    position: relative;
+}
+.header h1{
+    font-size: 50px;
+    color: white;
+    line-height: 80px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+}
+.header img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    float: right;
+    right: 100px;
+    top: 20px;
+    border-radius: 50%;
+}
+.header p{
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-color: red;
+    line-height: 20px;
+    font-size: 10px;
+    position: absolute;
+    right: 75px;
+    top: 30px;
+    text-align: center;
+    border-radius:25% ;
+}
+.clear{
+    clear: both;
+}
