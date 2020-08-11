@@ -8,7 +8,8 @@ class HeadPart extends Component {
       <div className="header">
         <h1 className="store">Store</h1>
         <img src={imgURL}></img>
-        <p className="amount">1</p>
+        <p className="amount">{this.props.value}</p>
+        <div className="clear"></div>
       </div>
     );
   }

@@ -9,7 +9,7 @@ class ShopItem extends Component {
         <h3>{this.props.name}</h3>
         <img src={imgURL}></img>
         <h4>{this.props.price}</h4>
-        <button>Add to Cart</button>
+        <button onClick={this.props.buyItem}>Add to Cart</button>
       </div>
     );
   }

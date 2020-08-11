@@ -25,3 +25,6 @@
     color:white;
     background-color: #095e8f;
 }
+.shopitem button:active{
+    background-color: cornflowerblue;
+}
